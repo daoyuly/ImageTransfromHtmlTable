@@ -6,7 +6,7 @@ var port = 3000
 
 //app.use(express.static(__dirname + '/static'));
 app.get("/logo-90.png", function(req, res) {
-  res.sendFile(__dirname + '/logo-90.png')
+  res.sendFile(__dirname + '/logo.png')
 })
 
 app.get("/", function(req, res) {
